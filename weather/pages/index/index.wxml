@@ -1,0 +1,38 @@
+
+
+<view class='content'>
+
+  <view class='header'>
+    <view class='headerr city'>{{weatherCity}}</view>
+    <view class='headerr date'>{{weatherDate}}</view>
+  </view>
+  
+  <view class='today'>
+    <view class='temp'>{{ weatherTemperature}}</view>
+    <view class='weather'>{{weatherDesc}}，{{weatherWind}}</view>
+    <view class='pm'>温馨提示：{{weatherPM}}</view>
+  </view>
+  
+  <view class='future'>
+    <view class="future-item one">
+      <view class="onedate">{{weatherOneDate}}</view>
+      <view class="onetemperature">{{weatherOneTemperature}}</view>
+      <view class="oneweather">{{weatherOneWeather}}</view>
+      <view class="onewind">{{weatherOneWind}}</view>
+    </view>
+    <view class="future-item two">
+      <view class="twodate">{{weatherTwoDate}}</view>
+      <view class="twowind">{{weatherTwoWind}}</view>
+      <view class="twoweather">{{weatherTwoWeather}}</view>
+      <view class="twotemperature">{{weatherTwoTemperature}}</view>
+      
+    </view>
+    <view class="future-item three">
+      <view class="threedate">{{weatherThreeDate}}</view>
+      <view class="threetemperature">{{weatherThreeTemperature}}</view>
+      <view class="threeweather">{{weatherThreeWeather}}</view>
+      <view class="threewind">{{weatherThreeWind}}</view>
+    </view>
+    
+  </view>
+</view>
